@@ -1,0 +1,42 @@
+.inp{
+    background: #fff;
+    border-color: #e53935;
+    width: 33em !important;
+}
+
+.inp:active, .inp:focus{
+    box-shadow: none !important;
+    border-color: #e53935;
+}
+
+.btn{
+    background: #e53935;
+    border-color: #e53935;
+    color: #fff;
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+}
+
+.btn:active, .btn:focus{
+    box-shadow: none !important;
+    background: #e53935 !important;
+    border-color: #e53935 !important;
+    color: #fff !important;
+}
+
+.btn:hover{
+    background: #d32f2f;
+    border-color: #d32f2f;
+}
+
+
+.border{
+    background: #fff;
+    box-shadow: 0 0 2px 0 lightgray;
+    margin-bottom: 10px;
+}
+
+.mrg{
+    margin: 0 auto;
+}
