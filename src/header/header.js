@@ -6,23 +6,20 @@ class Header extends React.Component{
     constructor(props){
         super(props);
         this.state = { term: '' };
-
-        this.onInputChange = this.onInputChange.bind(this);
-        this.onButtonClick = this.onButtonClick.bind(this);
     }
 
-    onInputChange(event){
+    onInputChange = (event) => {
         this.setState({ term: event.target.value });
     }
 
-    onButtonClick(){
+    onButtonClick = () => {
         this.props.onSearchTermChange(document.getElementById('search').value);
     }
 
     render() {
         return (
             <nav className = "navbar navbar-light border">
-                <a className = "navbar-brand">Videotube</a>
+                <a href="#" className = "navbar-brand">Video<span className="red">Tube</span></a>
                 <form className = "form-inline mrg">
                     <input className = "form-control mr-sm-2 inp" id="search" type="search" placeholder="Поиск" aria-label="Search"
                         value={this.state.term} onChange={this.onInputChange} />

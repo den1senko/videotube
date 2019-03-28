@@ -1,7 +1,7 @@
 .inp{
     background: #fff;
     border-color: #e53935;
-    width: 33em !important;
+    width: 300px !important;
 }
 
 .inp:active, .inp:focus{
@@ -39,4 +39,8 @@
 
 .mrg{
     margin: 0 auto;
+}
+
+.red{
+    color: #e53935;
 }
