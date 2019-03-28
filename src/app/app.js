@@ -8,8 +8,6 @@ import List from '../list/list';
 import Comment from '../comment/comment';
 import CommentItem from '../comment-item/comment-item';
 
-import './app.css';
-
 const API_KEY = 'AIzaSyAg8ZMGME245HECMYkRRmPMPElJoijdiIs';
 
 class App extends React.Component {
